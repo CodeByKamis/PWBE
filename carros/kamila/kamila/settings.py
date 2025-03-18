@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'vitoria',
-    'rest_framework'
+    'vitoria',#foi adicionado a minha pasta vitoria aqui para ele ser reconhecido
+    'rest_framework'#estou usando rest_framework então por isso tenho que colocar ele aqui para ser reconhecido
 ]
 
 MIDDLEWARE = [

@@ -1,5 +1,5 @@
 from django.db import models
-
+# classe das informações que são cadastradas do carro
 class Carro(models.Model):
     nome = models.CharField(max_length=255)
     marca = models.CharField(max_length=255)

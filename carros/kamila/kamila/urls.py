@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('vitoria.urls'))
+    path('', include('vitoria.urls'))#é o local que está o file de urls
 ]
